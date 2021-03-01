@@ -15,7 +15,7 @@ function Contador()
 
     function AddContador()
     {
-        setContador(contador + 1);
+        setContador(contador + 2);
     }
 
     return (
