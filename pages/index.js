@@ -11,11 +11,11 @@ function Home() {
 
 function Contador()
 {
-    const [contador, setContador] = useState(1);
+    const [contador, setContador] = useState(2);
 
     function AddContador()
     {
-        setContador(contador + 3);
+        setContador(contador**2);
     }
 
     return (
